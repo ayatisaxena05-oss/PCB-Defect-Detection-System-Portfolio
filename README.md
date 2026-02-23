@@ -142,7 +142,7 @@ The model detects defective regions and generates bounding boxes with confidence
 
 ### 🔹 2. EfficientNet Classification Output
 
-![Classification Output](assets/efficientnet_output_image(1).png)
+![Classification Output](assets/efficientnet_output_image.png)
 ![Classification Model Info](assets/model_info(1).png)
 
 EfficientNet detects defective regions and generates bounding boxes with confidence scores classifies the defect region into specific defect categories.

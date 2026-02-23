@@ -1,4 +1,4 @@
-# PCB-Defect-Detection-and-Classification-System
+# PCB-Defect-Detection-System-Portfolio
 ## Project Overview
 
 This project presents a modular deep learning pipeline for automated defect detection and classification in Printed Circuit Boards (PCBs).
@@ -81,7 +81,7 @@ src/
 
 This project uses a hybrid approach combining classical preprocessing, object detection, and deep learning-based classification.
 
-### 1️⃣ YOLO Model
+### 1️ YOLO Model
 
 The YOLO (You Only Look Once) model is used for real-time PCB defect detection.
 
@@ -103,7 +103,7 @@ The YOLO (You Only Look Once) model is used for real-time PCB defect detection.
 - Confidence score
 - Defect class label
 
-### 2️⃣ EfficientNet Model 
+### 2️ EfficientNet Model 
 
 EfficientNet is used for fine-grained defect classification after ROI extraction.
 
@@ -132,7 +132,7 @@ EfficientNet is used for fine-grained defect classification after ROI extraction
 
 ## Sample Outputs
 
-### 🔹 1. YOLO Detection Output
+###  1. YOLO Detection Output
 
 ![Input Image](assets/test_image_yolomodel.jpg)
 ![Detection Output](assets/test_image_output_yolomodel.png)
@@ -140,7 +140,7 @@ EfficientNet is used for fine-grained defect classification after ROI extraction
 The model detects defective regions and generates bounding boxes with confidence scores.
 
 
-### 🔹 2. EfficientNet Classification Output
+###  2. EfficientNet Classification Output
 
 ![Classification Output](assets/efficientnet_output_image.png)
 ![Classification Model Info](assets/model_info.png)
@@ -148,7 +148,7 @@ The model detects defective regions and generates bounding boxes with confidence
 EfficientNet detects defective regions and generates bounding boxes with confidence scores classifies the defect region into specific defect categories.
 
 
-### 🔹 3. Web Interface (Streamlit)
+###  3. Web Interface (Streamlit)
 
 ![Web UI](assets/web_ui.png)
 
